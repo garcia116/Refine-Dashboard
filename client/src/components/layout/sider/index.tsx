@@ -193,7 +193,7 @@ export const Sider: typeof DefaultSider = ({ render }) => {
                 sx={{
                   justifyContent: "center",
                   minWidth: 36,
-                  color: isSelected ? '#fff' : '#808191',
+                  color: isSelected ? '#fff' : '#a6a6a6',
                 }}
               >
                 {icon ?? <ListOutlined />}
@@ -204,7 +204,7 @@ export const Sider: typeof DefaultSider = ({ render }) => {
                   noWrap: true,
                   fontSize: "16px",
                   fontWeight: isSelected ? "bold" : "normal",
-                  color: isSelected ? '#fff' : '#808191',
+                  color: isSelected ? '#fff' : '#a6a6a6',
                   marginLeft: '10px'
                 }}
               />
@@ -413,13 +413,13 @@ export const Sider: typeof DefaultSider = ({ render }) => {
           </Box>
           <Button
             sx={{
-              background: "#00d9fff7",
+              background: "#475be8",
               color: "primary.contrastText",
               textAlign: "center",
               borderRadius: 0,
               borderTop: "1px solid #ffffff1a",
               '&:hover': {
-                background: '#00a7c4'
+                background: '#1e36e8'
               }
             }}
             fullWidth
@@ -436,7 +436,7 @@ export const Sider: typeof DefaultSider = ({ render }) => {
             top: "64px",
             left: "0px",
             borderRadius: "0 6px 6px 0",
-            bgcolor: "#00d9fff7",
+            bgcolor: "#475be8",
             zIndex: 1199,
             width: "36px",
           }}
