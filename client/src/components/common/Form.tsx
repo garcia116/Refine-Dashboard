@@ -94,7 +94,7 @@ const Form = ({type, register, handleSubmit, handleImageChange,
                   required
                   inputProps={{ 'aria-label': 'Without label'}}
                   defaultValue="apartment"
-                  {...register('description', {required: true})}
+                  {...register('propertyType', {required: true})}
                   >
                     <MenuItem value="apartment">
                       Apartment
