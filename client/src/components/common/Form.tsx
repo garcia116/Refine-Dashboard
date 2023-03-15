@@ -77,10 +77,10 @@ const Form = ({type, register, handleSubmit, handleImageChange,
 
               </FormHelperText>
                 <Select sx={{
-                  '& .css-9425fu-MuiOutlinedInput-notchedOutline': {
+                  '& .MuiOutlinedInput-notchedOutline': {
                       borderColor: '#cfcfcff7',
                   },
-                 ' &:hover .css-9425fu-MuiOutlinedInput-notchedOutline': {
+                 ' &:hover .MuiOutlinedInput-notchedOutline': {
                       borderColor: '#1f94dc'
                  },
                   '& .MuiSvgIcon-root':{
